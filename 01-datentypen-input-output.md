@@ -7,6 +7,7 @@ Interaktionen mit dem Benutzer lassen sich in Input (Eingabe) und Output (Ausgab
 **Beispiel:**
 ```python
 # Benutzer soll Wert in die Konsole eingeben
+# Zu beachten gilt hier, dass die Variable in welcher der Eingabewert gespeichert wird, standardmäßig den Typ "String" hat.
 value = input("Bitte Wert eingeben: ")
 
 # Hier könnten wir jetzt etwas mit der Variable "value" machen
